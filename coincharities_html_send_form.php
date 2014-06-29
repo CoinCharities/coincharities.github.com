@@ -3,8 +3,8 @@ if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
     $email_to = "aurelized@gmail.com";
-     $from_add = "info@bitcharities.org"; 
-    $email_subject = "Bitcharities website contact form submission";
+     $from_add = "info@coincharities.org"; 
+    $email_subject = "Coincharities website contact form submission";
      
      
     function died($error) {
@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
         echo "Please go back and fix these errors.<br /><br />  ";
-header("Refresh: 3; URL=http://www.bitcharities.org");
+header("Refresh: 3; URL=http://www.coincharities.org");
         die();
     }
      
@@ -60,12 +60,12 @@ $headers = 'From: '.$from_add."\r\n".
 ?>
 <!-- place your own success html below -->
 <script language="javascript">
- location.replace("http://www.bitcharities.org");
+ location.replace("http://www.coincharities.org");
  </script>
 
- <meta http-equiv="refresh" content="5; url=http://www.bitcharities.org">
+ <meta http-equiv="refresh" content="5; url=http://www.coincharities.org">
 
- <a href="http://www.bitcharities.org"><font face="arial,helvetica">Thanks! We'll keep you up to date !</font></a>
+ <a href="http://www.coincharities.org"><font face="arial,helvetica">Thanks! We'll keep you up to date !</font></a>
  
 <?php
 }
