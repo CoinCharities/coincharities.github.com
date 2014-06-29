@@ -1,0 +1,809 @@
+/* Credit: http://www.templatemo.com */
+@import url('font-awesome.css');
+
+body, html { overflow-x:hidden; }
+
+body {
+    background-color: #ffffff;
+    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 12px;
+	
+	font-weight: 300; 
+	font-style: normal; 
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.coincharitiesmo_clear {
+	clear: both;
+}
+
+.height30 {
+	height: 30px;
+}
+
+.coincharitiesmo-top-bar {
+    min-height: 40px;
+    background-color:#eeeeee;
+}
+
+.coincharitiesmo-top-menu {
+    min-height:90px;
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+
+.coincharitiesmo-top-menu .navbar-toggle {
+    margin-top: 308px;
+}
+
+.coincharitiesmo-top-menu .navbar-brand {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+/* ------ Carousel ----- */
+
+#coincharitiesmo-carousel {
+    background: url('../images/soweto.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    height: 500px;
+}
+
+#coincharitiesmo-carousel .carousel-caption {
+    z-index: 10;
+}
+
+#coincharitiesmo-carousel .item {
+    height: 500px;
+}
+#coincharitiesmo-carousel .carousel-inner > .item > img {
+    position: absolute;
+    min-width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    #coincharitiesmo-carousel .carousel-caption p {
+        margin-bottom: 20px;
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    #coincharitiesmo-carousel .carousel-caption {
+        padding-bottom: 140px;
+        right: 20%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #coincharitiesmo-carousel .carousel-caption {
+        padding-bottom: 120px;
+    }
+}
+
+/* ------ End of Carousel ----- */
+
+/* ------ Welcome & Slogna ------ */
+.coincharitiesmo-welcome {
+    border-bottom: 1px solid #cccccc;
+    min-height: 230px;
+}
+
+.coincharitiesmo-slogan {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 42px;
+    margin: 60px 0;
+    color: #333333;
+}
+
+.coincharitiesmo-service {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.coincharitiesmo-service-item {
+    font-family:  'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.coincharitiesmo-service-item p {
+    font-weight: lighter; 
+    text-align: justify; 
+    margin-top: 25px;
+    font-size: 14px;
+    color: #929292;
+}
+
+.subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #e67e22;
+}
+
+
+.btn-orange {
+    background-color: #ff7600;
+    border-bottom:2px solid #d35400;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+    background-color: #d35400;
+    color:#ffffff;
+}
+
+.btn-green {
+    background-color:#2ecc71;
+    border-bottom:2px solid #27ae60;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+    background-color: #27ae60;
+    color:#ffffff;
+}
+
+.nav > li > a {
+    padding: 10px 10px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+
+
+.nav > li > a {
+    color: #929292;
+}
+.navbar-default {
+    background-color:#fff;
+    border:none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.coincharitiesmo-service-item-header {
+    margin-left: -10px; 
+    padding: 16px 20px 20px; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.coincharitiesmo-header-orange {
+    background-color:#ff7600;
+    min-width: 298px;
+    height: 67px;
+    color: #fff; 
+
+}
+
+
+.coincharitiesmo-team {
+    /*background: url('../images/background.png') ; */
+	/*background-color:#F0931C; /* Orange theme*/
+	background-color:#BABABA; /* Orange theme*/
+    font-family:  'Open Sans', sans-serif;
+    min-height:50px;
+    color:#ffffff;
+
+}
+.coincharitiesmo-line-header {
+    margin-top:80px;
+    margin-bottom:60px;
+}
+
+.member-thumb:hover .thumb-overlay {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.member-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-thumb .thumb-overlay {
+    background-color: rgba(220, 157, 102, 0.8);
+    position: absolute;
+    visibility: hidden;
+    padding-top: 35%;
+    padding-left: 15%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.thumb-overlay a {
+    float:left;
+    margin-right: 5px;
+}
+
+
+
+.team-inner {
+    margin-top:10px;
+}
+
+.team-inner-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size:16px;
+}
+
+.team-inner-subtext {
+    font-weight:normal;
+    font-size:12px;
+}
+
+.row_team {
+    margin-left:-50px;
+    margin-top:5px;
+}
+
+.row_team li {
+    list-style: none;
+}
+
+.coincharitiesmo-project-box {
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+    height: 200px;
+    width: 200px;
+}
+
+.coincharitiesmo-project-box:hover .project-overlay {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-overlay {
+    background : rgba(0,0,0,.75);
+    border : 2px solid #ff7600;
+    visibility: hidden;
+    position: absolute;
+    text-align:center;
+    padding-top:10px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+
+.project-overlay hr {
+    width : 70%;
+	
+}
+
+.coincharitiesmo-project-gallery li {
+    margin:10px;
+}
+
+.txt_darkgrey {
+    color: #333333;
+}
+
+.txt_darkgrey_strong, .txt_darkgrey_strong:hover {
+	color: #333;
+	text-decoration:none;
+	cursor:text;
+}
+
+.txt_orange {
+    color: #e67e22;
+}
+
+.txt_slogan {
+    font-size:14px; 
+    color:#929292;
+}
+
+.coincharitiesmo-line-header span {
+    font-size: 18px; 
+   float :center; 
+    margin-top: 5px;
+}
+
+.team_box  div {
+    text-align: center; 
+    padding-top: 50px;
+}
+
+.span_blog {
+    margin-bottom: 40px;
+}
+
+.blog_post {
+    color: #333333; 
+    padding: 10px;
+}
+
+.blog_header {
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.blog_text {
+    text-align: justify; 
+    font-size: 14px; 
+    margin-top: 20px;
+}
+
+#coincharitiesmo-contact {
+	margin-top:100px; 
+	border-top: 1px solid #cccccc; 
+	font-size:14px;
+}
+.coincharitiesmo-contact-map {
+    margin-bottom: 15px;
+    height: 378px;
+
+}
+
+.head_contact {
+    padding-bottom:80px; 
+    margin-bottom:0;
+}
+
+.contact_right img {
+	margin-right:5px;
+}
+
+.contact_right form {
+	padding-left:15px;
+	padding-right:15px
+}
+
+.tweet_txt {
+	border-left:2px solid #ffffff; 
+	min-height:160px;
+}
+
+.twitter_user {
+	color: #FFFF33; 
+	font-size: 14px;
+	float: right;
+}
+
+.coincharitiesmo-partners {
+	border-top: 2px solid #cccccc;
+}
+
+.coincharitiesmo-partners .coincharitiesmo-partner-item {
+    margin-bottom: 5px;
+}
+
+.coincharitiesmo-footer {
+	border-top: 2px solid #cccccc; 
+	margin-top: 100px;
+}
+
+.footer_container {
+	margin-top:60px; 
+	margin-bottom:20px;
+}
+
+.footer_bottom_content {
+	margin: auto;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color:#333333;
+}
+
+.social-icon-fb {
+    background: url('../images/social-icon-fb.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-fb {
+    background: url('../images/social-icon-fb-over.png') no-repeat;
+}
+
+.social-icon-rss {
+    background: url('../images/social-icon-rss.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-rss {
+    background: url('../images/social-icon-rss-over.png') no-repeat;
+}
+
+.social-icon-twitter {
+    background: url('../images/social-icon-twitter.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-twitter {
+    background: url('../images/social-icon-twitter-over.png') no-repeat;
+}
+
+.social-icon-linkedin {
+    background: url('../images/social-icon-linkedin.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-linkedin {
+    background: url('../images/social-icon-linkedin-over.png') no-repeat;
+}
+
+.social-icon-dribbble {
+    background: url('../images/social-icon-dribbble.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+a:hover .social-icon-dribbble {
+    background: url('../images/social-icon-dribbble-over.png') no-repeat;
+}
+
+ul.coincharitiesmo-project-gallery  li  a img:hover {
+    border: 3px solid #ff7600;
+}
+
+.coincharitiesmo-gallery-category a {
+	color:#333333; 
+}
+
+.coincharitiesmo-gallery-category a.active {
+	color:#e67e22; 
+	text-decoration:none;
+}
+
+.coincharitiesmo-gallery-category a:focus {
+	color:#e67e22;
+	text-decoration:none;	
+}
+
+.coincharitiesmo-gallery-category a:hover {
+	color:#e67e22; 
+	text-decoration:none;
+}
+
+.link_orange:hover {
+    text-decoration:none;
+}
+.coincharitiesmo-project-gallery {         
+    margin:0 0 0 0;
+    margin-top:30px;
+    margin-left: -40px;
+}
+.coincharitiesmo-project-gallery li {     
+    list-style:none;
+    margin-bottom:25px;           
+}
+.coincharitiesmo-project-gallery li img {
+  cursor: pointer;
+}
+
+.coincharitiesmo-tweets {
+    background-color: #8996a0;
+    min-height:200px;
+    font-family:  'Open Sans', sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    margin-top:100px;
+}
+
+.form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-style: italic;
+}
+
+.btn_loadmore {
+	margin-top:30px; 
+	margin-bottom:80px;
+}
+
+.blog_box {
+	margin-left: -12px;
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .coincharitiesmo-project-box, .project-overlay {
+        height:170px;
+        width:170px;
+    }
+
+    .coincharitiesmo-project-gallery {
+        margin-left: -70px;
+    }
+
+    .coincharitiesmo-service-item-header {
+        padding: 16px 10px 20px;
+    }
+
+    .coincharitiesmo-header-orange {
+        min-width: 230px;
+    }
+
+    .team_box,  .team_box_over {
+        height:220px;
+        width:220px;
+    }
+	
+}
+
+
+@media (max-width:991px) {
+    .team-inner {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+	
+    .coincharitiesmo-btn-read-more {
+        float:right;
+        margin-bottom :40px; 
+    }
+}
+
+
+@media (min-width:768px) and (max-width:990px) {
+    .member-thumb .thumb-overlay {
+        padding-left: 30%;
+    }
+    .coincharitiesmo-project-box , .project-overlay {
+       height:130px;
+       width:130px;
+       padding-top: 0px;
+    }
+
+    .coincharitiesmo-project-gallery {
+       margin-left: 10px; 
+    }
+
+    .blog_box{
+       margin-right: -140px;
+    }
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  } 
+}
+
+@media (max-width: 768px) {
+    .member-thumb .thumb-overlay {
+        padding-left: 40%;
+       
+    }
+    .coincharitiesmo-btn-read-more {
+            float:right;
+            margin-bottom :40px; 
+      }
+}
+
+@media (max-width: 380px) {
+    .member-thumb .thumb-overlay {
+            padding-left: 30%;
+
+    }
+	.coincharitiesmo-service-item-header {
+		font-size: 16px;
+		
+		padding: 23px 10px 22px;
+	}
+	.coincharitiesmo-header-orange {
+		min-width: 0px;
+	}
+	
+}
+
+@media (min-width:991px) and (max-width: 1200px) {
+	 .team_hr {
+		width: 37%; 
+	}
+}
+
+@media (min-width:683px) and ( max-width: 991px) {
+	 .team_hr {
+		width: 33%;
+	}
+}
+
+@media (min-width:585px) and ( max-width: 683px) {
+        .member-thumb .thumb-overlay {
+            padding-left: 25%;
+
+        }
+	 .team_hr {
+		width: 30%;
+	}
+}
+
+@media (min-width:536px) and ( max-width: 585px) {
+	 .team_hr {
+		width: 28%;
+	}
+}
+
+@media  (min-width:410px) and  ( max-width: 536px) {
+	 .team_hr {
+		width: 21%;
+	}
+}
+
+@media  ( max-width: 410px) {
+	 .team_hr {
+		width: 11%;
+	}
+}
+
+
+#toggle
+{
+position: relative;
+margin-left:auto;
+ margin-right:auto;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0px;
+	width: 1000px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #b9c9fe left -1px no-repeat;
+			width: 500px;
+}
+#rounded-corner thead th.rounded-name
+{
+	background: #b9c9fe left -1px no-repeat;
+			width: 500px;
+}
+#rounded-corner thead th.rounded-country
+{
+	background: #b9c9fe left -1px no-repeat;
+		width: 200px;
+}
+#rounded-corner thead th.rounded-address
+{
+	background: #b9c9fe left -1px no-repeat;
+		width: 300px;
+}
+#rounded-corner thead th.rounded-desc
+{
+	background: #b9c9fe left -1px no-repeat;
+		width: 1500px;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #b9c9fe url right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+	width:1000px;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+/******************************/
+/**********  Ribbon  **********/
+/******************************/
+.ribbon{
+z-index: 1000;
+  font: bold 15px Sans-Serif;
+  color: #333;
+			  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+			/*border: 1px white double;*/
+			padding: 10px;
+			position:fixed; 
+			right: 0px;
+			top: 0px;
+			text-align: center; 
+			  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+			width: 300px;  
+			-moz-transform-origin: 50% 50%;
+			-moz-transform: translate(90px,30px) rotate(45deg);
+			-webkit-transform-origin: 50% 50%; 
+			-webkit-transform: translate(90px,30px) rotate(45deg);
+			-o-transform-origin: 50% 50%; 
+			-o-transform: translate(90px,30px) rotate(45deg); 
+			transform: translate(90px,30px) rotate(45deg);
+}
